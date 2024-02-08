@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#hero{
+    background-image: url("https://www.barntgreeninn.co.uk/content/dam/pcdg/pub-images/barntgreeninn/barntgreeninn-gallery_10.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+#hero h1, h2{
+    color:white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#hero h1{
+    background-color: #44BBA4;  
+    margin-bottom: 0;
+}
+
+#hero h2{
+    background-color: #1B6E5D;
+    width: 400px;
+    margin-top: 15px;
+    font-size: 20px
+}
+
+#activities{
+    color: #1B6E5D;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#activities h3{
+    margin: 30px 0;
+}
+
+.activity-pic-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.activity-pic{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.activity-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.activity-caption{
+    font-size: 14px;
+}
+
+.activity{
+    width: 150px;
+}
+
+#guide-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 400px;
+    background-color:#1B6E5D;
+    color: antiquewhite;
+    border-radius: 10px;
+    border-bottom: solid 5px antiquewhite;
+    margin: 50px auto;
+    padding: 0px 10px;
+}
+
+
+#guide-card img{
+    width: 400px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    height: 150px;
+}
+
+#guide-text{
+    margin: 0px 10px;
+}
+
+#guide-text p{
+    font-style: italic;
+}
+
+#guide-text h4{
+    font-size: 13px;
+    
+}
